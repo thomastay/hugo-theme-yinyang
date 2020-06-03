@@ -1,9 +1,10 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
+  background: #F5F5F0;
 }
 
 article {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .signatures {
-  font-family: "Permanent Marker", Impact, Charcoal, sans-serif;
+  font-family: Consolas, Monospace, Courier, monospace;
 }
 
 .signatures a {
@@ -96,6 +97,7 @@ a:hover {
 }
 
 .site-footer {
+  font-family: Consolas, Monospace, Courier, monospace;
   margin-top: 50px;
   margin-bottom: 80px;
   display: flex;
@@ -166,7 +168,7 @@ a:hover {
   hyphens: auto;
   line-height: 1.8;
   /* text-align: justify; */
-  text-justify: ideographic;
+  /*text-justify: ideographic;*/
   margin-bottom: 1em;
 }
 
