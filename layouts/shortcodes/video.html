@@ -1,0 +1,7 @@
+<!-- layouts/shortcodes/video.html -->
+<div style="max-width: 60%; margin: 0 auto;">
+<video style="width: 100%" {{ if .Get "autoplay" }}autoplay{{ end }} {{ if .Get "controls" }}controls{{ end }}>
+  <source src="{{ .Get "src" }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
