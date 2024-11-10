@@ -18,6 +18,6 @@ min_version = "0.50"
 [params]
 staticPrefix = ""
 
-[author]
+[params.author]
   name = "Joway Wang"
   homepage = "https://joway.io"
